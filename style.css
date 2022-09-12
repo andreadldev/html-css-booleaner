@@ -45,3 +45,21 @@ main {
 #date {
     font-size: x-small;
 }
+
+/* TABELLA */
+thead {
+    background-color: #20a9e5;
+    margin: 0;
+}
+
+thead > tr > td {
+    font-weight: bold;
+}
+
+td {
+    width: 30vw;
+}
+
+.colored {
+    background-color: #B1E5F2;
+}
