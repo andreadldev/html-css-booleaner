@@ -35,11 +35,12 @@ main {
     color: #20A9E5;
 }
 
-#description {
-    margin-bottom: 15px;
+.description {
+    
     font-size: 14px;
     font-weight: bold;
     color: gray;
+    margin-bottom: 15px;
 }
 
 #date {
@@ -47,6 +48,10 @@ main {
 }
 
 /* TABELLA */
+
+table {
+    margin: 30px 0;
+}
 thead {
     background-color: #20a9e5;
     margin: 0;
@@ -62,4 +67,23 @@ td {
 
 .colored {
     background-color: #B1E5F2;
+}
+
+
+/* IMMAGINI FINALI */
+.images {
+    height: 120px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+#img-1 {
+    background-image: url(img/monitor.jpg);
+}
+
+#img-2 {
+    background-image: url(img/graph.jpg);
 }
