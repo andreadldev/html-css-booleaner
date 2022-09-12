@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+}
+
+/* --------------------HEADER-------------------- */
+header {
+    height: 110px;
+    background-color: #4EA0FF;
+    background-image: url(img/pattern.png);
+    background-size: 450px 210px;
+    background-position: top;
+}
+
+header > img {
+    height: 55px;
+    margin: 45px 5px;
+}
