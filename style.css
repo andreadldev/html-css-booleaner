@@ -6,6 +6,11 @@ h1 {
     margin-bottom: 0;
 }
 
+ul {
+    list-style-position: inside;
+    padding-left: 0;
+  }
+
 /* --------------------HEADER-------------------- */
 header {
     height: 110px;
@@ -25,7 +30,7 @@ header > img {
 main {
     margin: 0 100px;
 }
-
+/* TITOLO, AUTORE E DATA */
 #author {
     color: #20A9E5;
 }
